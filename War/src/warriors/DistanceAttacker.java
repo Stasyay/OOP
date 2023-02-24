@@ -1,2 +1,5 @@
-package warriors;public interface DistanceAttacker {
+package warriors;
+
+public interface DistanceAttacker {
+    int getDistance();
 }

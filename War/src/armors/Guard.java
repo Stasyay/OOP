@@ -1,2 +1,5 @@
-package armors;public class Guard {
+package armors;
+
+public interface Guard {
+     int reduceProtection();
 }
