@@ -1,5 +1,4 @@
 public class Persister {
-
     private User user;
 
     public Persister(User user){

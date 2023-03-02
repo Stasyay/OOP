@@ -10,5 +10,4 @@ public class Report {
     public String getReport() {
         return report;
     }
-
 }

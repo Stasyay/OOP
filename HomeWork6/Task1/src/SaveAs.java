@@ -1,5 +1,4 @@
 public class SaveAs implements Savable{
-
     private Report report;
 
     private User user;
