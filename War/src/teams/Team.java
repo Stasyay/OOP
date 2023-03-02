@@ -1,5 +1,6 @@
 package teams;
 
+import armors.Guard;
 import warriors.DistanceAttacker;
 import warriors.Warrior;
 
@@ -36,6 +37,7 @@ public class Team <T extends Warrior>{
         for (T item: team) sum += item.getMaxDamage();
         return sum;
     }
+
     @Override
     public String toString() {
 

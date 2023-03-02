@@ -33,9 +33,8 @@ public class Main {
 
         while (greg.getHealthPoint() > 0 && misha.getHealthPoint()>0){
 
-            greg.hit(misha);
-            misha.hit(greg);
-            System.out.printf("Брони у Гриши осталось: %d Брони у Миши осталось: %d \n", greg.getProtection(), misha.getProtection());
+            greg.hitDamage(misha);
+            misha.hitDamage(greg);
             System.out.printf("Здоровье Гриши: %d Здоровье Миши: %d \n", greg.getHealthPoint(), misha.getHealthPoint());
             System.out.println("____________");
 ;        }

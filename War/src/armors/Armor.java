@@ -1,11 +1,15 @@
 package armors;
 
-public class Armor implements Guard{
+public class Armor implements Guard {
 
 
     @Override
-    public int reduceProtection() {
-        return 40;
+    public int Protection() {
+        return 9;
     }
 
+    @Override
+    public String toString() {
+        return "Armor{" + "Protection= " + Protection() + "}";
+    }
 }
