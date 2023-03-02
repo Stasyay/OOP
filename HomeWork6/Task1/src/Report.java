@@ -1,6 +1,5 @@
 public class Report {
 
-
     private String report = "";
 
     public Report(String report) {
@@ -11,4 +10,5 @@ public class Report {
     public String getReport() {
         return report;
     }
+
 }
